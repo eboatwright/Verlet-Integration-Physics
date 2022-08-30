@@ -12,7 +12,7 @@ pub const PHYSICS_SUBSTEPS: usize = 4;
 
 fn window_conf() -> Conf {
 	Conf {
-		window_title: "Verlet Integration Physics".to_string(),
+		window_title: "Verlet Integration Physics ~ v1.0.0".to_string(),
 		window_width: WINDOW_WIDTH as i32,
 		window_height: WINDOW_HEIGHT as i32,
 		..Default::default()
